@@ -1,0 +1,18 @@
+
+A compiled Python module to take advantage of QuickLZ from Python.
+Target:
+    build/${arch}/quicklz.so
+Source:
+    quicklzpy.c
+    distutils
+
+
+A qzip/qunzip/qcat utility, which works similarly to gzip/gunzip/zcat
+Target:
+    qzip
+    qunzip
+    qcat
+Source:
+    qzip.c
+
+
